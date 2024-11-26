@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-0+e4f%bj0!7e)+z&$)3xpm5*sc1$9_x)4ffnk8cd1jqv&ya^%d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app','recipe-sharing-platform.com']
 
 
 # Application definition

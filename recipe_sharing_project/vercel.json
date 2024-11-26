@@ -19,12 +19,12 @@
     ],
     "routes": [
       {
-        "src": "/static/(.*)",
+        "src": "^/static/(.*)$",
         "dest": "/static/$1"
       },
       {
         "src": "/(.*)",
-        "dest": "poll/wsgi.py"
+        "dest": "recipe_sharing_project/wsgi.py"
       }
     ]
   }
