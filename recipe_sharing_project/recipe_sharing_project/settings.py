@@ -83,16 +83,16 @@ WSGI_APPLICATION = 'recipe_sharing_project.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'recipe_sharing_platform',
-        'USER': 'root',
-        'PASSWORD': 'Prathmesh@1234',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'recipe_sharing_platform',
+#         'USER': 'root',
+#         'PASSWORD': 'Prathmesh@1234',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
 
 
 # Password validation
